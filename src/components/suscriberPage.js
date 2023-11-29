@@ -4,12 +4,12 @@ function SuscriberPage() {
   const [dynamicId, setDynamicId] = useState('');
   const GetAllSubscriber = () => {
     // Redirect to the specified page
-    window.open('http://localhost:3000/subscriber', '_blank');
+    window.open('https://youtubesubscriber-backend-rhdu.onrender.com/subscriber', '_blank');
   };
 
   const GetAllSubscriberNames = () => {
     // Redirect to the specified page
-    window.open('http://localhost:3000/subscriber/name', '_blank');
+    window.open('https://youtubesubscriber-backend-rhdu.onrender.com/subscriber/name', '_blank');
   };
 
   const handleInputChange = (event) => {
@@ -19,7 +19,7 @@ function SuscriberPage() {
 
   const DynamicRender = () => {
     // Open a new tab with the dynamic ID in the URL
-    window.open(`http://localhost:3000/subscriber/${dynamicId}`, '_blank');
+    window.open(`https://youtubesubscriber-backend-rhdu.onrender.com/subscriber/${dynamicId}`, '_blank');
   };
 
   const getDoc = () => {
@@ -45,7 +45,7 @@ function SuscriberPage() {
               <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                 <label
                   class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
-                  Get All Suscribers Details
+                  Get Suscribers Details
                 </label>
                 <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded w-full" onClick ={GetAllSubscriber}>
                   Get All
