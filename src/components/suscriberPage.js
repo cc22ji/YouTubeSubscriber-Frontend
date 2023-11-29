@@ -50,22 +50,16 @@ function SuscriberPage() {
                 <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded w-full" onClick ={GetAllSubscriber}>
                   Get All
                 </button>
-                <p class="text-red-500 text-xs italic">
-                  Please fill out this field.
-                </p>
               </div>
               {/* get All suscriber Name div here */}
               <div class="w-full md:w-1/2 px-3">
                 <label
                   class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
-                  Get all Suscribers Name
+                  Get Suscribers Name
                 </label>
                 <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded w-full" onClick={GetAllSubscriberNames}>
                   Get Name
                 </button>
-                <p class="text-red-500 text-xs italic">
-                  Please fill out this field.
-                </p>
               </div>
             </div>
 
@@ -80,9 +74,8 @@ function SuscriberPage() {
                   class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                   id="grid-SuscribersId" type="text" placeholder="123456789"  value={dynamicId} 
                   onChange={handleInputChange}/>
-                <p class="text-red-500 text-xs italic">
-                   {/*text-gray-600  */}
-                  Sample id : 1234567890
+                <p class="text-gray-600 text-xs italic">
+                  Sample id : 655dc92bf9da0691d1eed856
                 </p>
               </div>
               {/* search button div here  */}
