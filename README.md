@@ -1,6 +1,49 @@
-# Getting Started with Create React App
+# YouTubeSubscriber 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a frontend part of youtubesubscriber project. \
+In this we got API data coming from DataBase by providing some event from UI. 
+
+Here, we have 4 buttons and one input field.
+
+`Get Subscriber` button get all the data of subscribers from the DataBase.\
+`Get subscriber name` button get the name and channel name of subscribers from the DataBase.\
+`search` button find data by provided Id.\
+`API Doc` button get the documentation of the API's.\
+
+
+## Tech Stack
+
+**Client:**  React, Redux, TailwindCSS, Formik, react-icons, react-router-dom
+
+
+
+
+## Features
+
+- Live previews
+- Fully responsive webApp
+- Cross platform
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/cc22ji/YouTubeSubscriber-Frontend
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
 
 ## Available Scripts
 
@@ -14,57 +57,53 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deployment
 
-### `npm run build`
+For Deployment of this project we use render.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+First the project is push to git and through render we connect out git. After this the deployment is so easy we set couple of terms and click for deployment.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Keep in mind during deployment put...
+* build command is  `npm install`
+* start command is `npm start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Demo
+Here a link of demostartion video -
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ - [YouTubeSubscriber-Frontend]()
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Hi, I'm Chetan! 👋
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 About Me
+I'm a Student learning Full Stack web Development.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+ 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## 🛠 Skills
+React, Javascript, JSX, HTML, CSS, Bootstrap, tailwind,...
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## 🔗 Links
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/chetan-chouhan-06b954167)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Feedback
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+If you have any feedback, please reach out to me at chetanchouhan222@gmail.com
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributing
+
+Contributions are always welcome!
+
+
+
